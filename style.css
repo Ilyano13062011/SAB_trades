@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #0f172a;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px;
+  background: url("https://images.unsplash.com/photo-1542751371-adc38448a05e") center/cover;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: #38bdf8;
+}
+
+.btn {
+  background: #38bdf8;
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+/* ITEMS */
+.items {
+  text-align: center;
+  padding: 50px;
+}
+
+.card {
+  display: inline-block;
+  width: 200px;
+  background: #1e293b;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* INFO */
+.info {
+  text-align: center;
+  padding: 40px;
+}
+
+/* CHAT */
+#chatBox {
+  height: 350px;
+  margin: 20px;
+  border: 2px solid #38bdf8;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.message {
+  background: #1e293b;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.message img {
+  width: 120px;
+  margin-top: 5px;
+}
+
+/* INPUT */
+.input-area {
+  text-align: center;
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 8px;
+}
